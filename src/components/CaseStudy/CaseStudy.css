@@ -1,0 +1,92 @@
+/* Case Study Section */
+.case-study-section {
+  padding: 50px 20px;
+  background: linear-gradient(to top, #6a11cb, #032259); /* Gradient */
+  color: #fff; /* Ensure text is readable on the gradient */
+  text-align: center;
+  padding-top: 30px;
+}
+
+.case-study-header {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.case-study-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.case-study-header p {
+  font-size: 1rem;
+  color: #dcdcdc; /* Subtle text color */
+  max-width: 600px; /* Limit width for better readability */
+  text-align: center; /* Center the paragraph text */
+}
+
+.connect-sales-button {
+  display: inline-block;
+  margin: 20px auto; /* Center horizontally */
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2575fc; /* Matches the gradient */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.connect-sales-button:hover {
+  background-color: #1b5dc2; /* Slightly darker on hover */
+}
+
+.case-study-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.case-study-card {
+  background-color: #222; /* Dark card background */
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.case-study-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.case-study-card h2 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.case-study-card p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.case-study-card a {
+  display: block;
+  color: #6db4fc;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.case-study-card a:hover {
+  text-decoration: underline;
+}

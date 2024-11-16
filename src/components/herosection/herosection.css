@@ -1,0 +1,142 @@
+/* herosection.css */
+.text {
+    display: flex; /* Flexbox to align the elements horizontally */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: flex-start; /* Aligns items to the top */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px; /* Adds some space between left and right content */
+  }
+  
+  .left-content {
+    display: flex;
+    flex-direction: column; /* Stack heading, paragraph, and buttons vertically */
+    justify-content: flex-start; /* Aligns items to the top */
+    align-items: flex-start; /* Aligns items to the left */
+    width: 50%; /* Takes up 50% of the width */
+  }
+  
+  .heading {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .para {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .btn-container {
+    display: flex; /* Flexbox to position buttons side by side */
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .btn1, .btn2 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 200px; /* Control button width */
+  }
+  
+  .btn1:hover, .btn2:hover {
+    background-color: #45a049;
+  }
+  
+  .img {
+    width: 100%; /* Ensure the image takes full width of the right side */
+    max-width: 600px; /* Limits the image's max width */
+    height: auto; /* Maintains aspect ratio */
+    flex: 1; /* Allows image to grow and take available space */
+  }
+.smallhead{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}  
+
+/* CSS */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .marquee {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
+
+.company-stats {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.company-info, .rating-info {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-images {
+  display: flex;
+  gap: 5px;
+  margin-right: 10px;
+}
+
+.circle-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.company-info strong {
+  font-size: 1.5em;
+  display: block;
+}
+
+.divider {
+  width: 1px;
+  height: 50px;
+  background-color: #ccc;
+}
+
+.rating-info strong {
+  font-size: 1.5em;
+  display: block;
+}
+
+.stars {
+  color: #FFD700; /* Gold color for stars */
+}
+
+.company-info p, .rating-info p {
+  font-size: 0.9em;
+  color: #666;
+}

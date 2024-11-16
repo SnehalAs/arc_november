@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* color: #333; */
+    text-align: center;
+  }
+  
+  .hubnex-section {
+    padding: 50px 20px;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .connect-sales-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .connect-sales-button:hover {
+    background-color: #555;
+  }
+  
+  .integrations-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .integration-card {
+    background: linear-gradient(135deg, #f691d6, #e7eaff);
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+  }
+  
+  .integration-card h2 {
+    font-size: 1.5rem;
+    /* color: #4a4aeb; */
+    margin: 0;
+  }
+  
+  .integration-card p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+ 
+  
