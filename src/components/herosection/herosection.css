@@ -36,8 +36,8 @@
   }
   
   .btn1, .btn2 {
-    background-color: #4CAF50;
-    color: white;
+    /* background-color: #4CAF50; */
+    /* color: white; */
     border: none;
     padding: 10px 20px;
     text-align: center;
@@ -46,9 +46,17 @@
     border-radius: 5px;
     width: 200px; /* Control button width */
   }
+  .btn1{
+    background-color:pink;
+    color: black; 
   
+  }
+  .btn2{
+    background-color:cyan;
+    color: white;
+  }
   .btn1:hover, .btn2:hover {
-    background-color: #45a049;
+    background-color: rgb(43, 250, 164);
   }
   
   .img {
@@ -56,6 +64,8 @@
     max-width: 600px; /* Limits the image's max width */
     height: auto; /* Maintains aspect ratio */
     flex: 1; /* Allows image to grow and take available space */
+    border-radius: 20px;
+  
   }
 .smallhead{
     display: flex;
@@ -68,11 +78,19 @@
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
+
   }
   
   .marquee {
     display: inline-block;
-    animation: marquee 10s linear infinite;
+    animation: marquee 20s linear infinite;
+    
+    
+  }
+  .marquee img {
+    margin: 40px; /* Adds spacing between logos */
+    border-radius: 20%;
+    padding: 50px;
   }
   
   @keyframes marquee {
@@ -133,7 +151,7 @@
 }
 
 .stars {
-  color: #FFD700; /* Gold color for stars */
+  color: blue !important; /* Gold color for stars */
 }
 
 .company-info p, .rating-info p {

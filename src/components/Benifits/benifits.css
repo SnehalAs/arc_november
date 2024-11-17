@@ -4,16 +4,13 @@ body {
     background-color: #f8f8f8;
   }
   
+  
   .app {
     text-align: center;
     padding: 20px;
   }
   
-  .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
+  
   
   .benefits-container {
     display: flex;
@@ -38,7 +35,7 @@ body {
   
   .benefit-image {
     width: 100%;
-    height: 200px;
+    height: 400px;
     object-fit: cover;
   }
   
