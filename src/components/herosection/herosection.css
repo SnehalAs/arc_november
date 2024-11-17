@@ -21,6 +21,7 @@
     font-size: 4rem;
     margin-bottom: 10px;
     font-weight: bold;
+    text-align: left;
   }
   
   .para {
@@ -28,6 +29,7 @@
     margin-bottom: 20px;
     color: #555;
     line-height: 1.6;
+    text-align: left;
   }
   
   .btn-container {
