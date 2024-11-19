@@ -26,9 +26,11 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #2d3e50;
   margin-bottom: 1rem;
+  text-align:left;
+  font-weight: 600;
 
   @media (max-width: 768px) {
     font-size: 2rem;
@@ -36,10 +38,11 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #637381;
   margin-bottom: 2rem;
   line-height: 1.5;
+  text-align:left;
 
   @media (max-width: 768px) {
     font-size: 0.9rem;
@@ -63,8 +66,8 @@ export const StatBox = styled.div`
 `;
 
 export const StatNumber = styled.h2`
-  font-size: 2rem;
-  color: #5c67f2;
+  font-size: 3rem;
+  color: blueviolet;
   margin-bottom: 0.5rem;
 
   @media (max-width: 768px) {
@@ -73,19 +76,20 @@ export const StatNumber = styled.h2`
 `;
 
 export const StatLabel = styled.p`
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #637381;
 `;
 
 export const MediaContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+  
 
   span {
-    font-size: 1rem;
+    
     color: #637381;
-    margin-right: 1rem;
+    margin-right: 3rem;
   }
 
   @media (max-width: 768px) {

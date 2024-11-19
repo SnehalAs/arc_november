@@ -1,92 +1,140 @@
-/* Case Study Section */
+/* Section Styles */
 .case-study-section {
-  padding: 50px 20px;
-  background: linear-gradient(to top, #6a11cb, #032259); /* Gradient */
-  color: #fff; /* Ensure text is readable on the gradient */
-  text-align: center;
-  padding-top: 30px;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #1607e9, #000000);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
 }
 
 .case-study-header {
-  display: flex;
-  flex-direction: column; /* Stack content vertically */
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .case-study-header h1 {
   font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+  color: #ffffff;
+  margin-bottom: 1rem;
 }
 
 .case-study-header p {
   font-size: 1rem;
-  color: #dcdcdc; /* Subtle text color */
-  max-width: 600px; /* Limit width for better readability */
-  text-align: center; /* Center the paragraph text */
+  color: #cccccc;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
 .connect-sales-button {
-  display: inline-block;
-  margin: 20px auto; /* Center horizontally */
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
+  background-color: #007bff;
   color: #fff;
-  background-color: #2575fc; /* Matches the gradient */
+  padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 5px;
+  font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-align: center;
+  transition: background-color 0.3s;
 }
 
 .connect-sales-button:hover {
-  background-color: #1b5dc2; /* Slightly darker on hover */
+  background-color: #0056b3;
 }
 
-.case-study-content {
+/* Carousel Styles */
+.carousel {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  gap: 1rem;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.case-study-card {
-  background-color: #222; /* Dark card background */
-  border-radius: 10px;
-  padding: 20px;
-  width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.case-study-card img {
+/* Card Styles */
+.card {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  max-width: 650px;
+  height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.case-study-card h2 {
-  font-size: 1.2rem;
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.case-study-card p {
+/* Tag at the Top-Right */
+.tag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
   font-size: 0.9rem;
-  color: #aaa;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  z-index: 1;
 }
 
-.case-study-card a {
-  display: block;
-  color: #6db4fc;
+/* Content at the Bottom */
+.card-content {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+.card-content .read-more {
+  color: #007bff;
   font-weight: bold;
   text-decoration: none;
-  margin-top: 10px;
 }
 
-.case-study-card a:hover {
+.card-content .read-more:hover {
   text-decoration: underline;
+}
+
+/* Carousel Buttons */
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.carousel-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: #0056b3;
 }

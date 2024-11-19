@@ -15,6 +15,8 @@ import Footer from './components/Footer/Footer.tsx'
 
 
 
+
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     {/* <App /> */}
@@ -28,5 +30,8 @@ createRoot(document.getElementById('root')!).render(
     <CTA/>
     <BlogSection/>
     <Footer/>
+    
+    
     </StrictMode>,
+    
 )

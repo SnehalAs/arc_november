@@ -15,9 +15,9 @@ import {
 import Globe from "./globe.png"; 
 
 
-import DailyhuntLogo from "../../assets/Dailyhunt.png";
-import TOILogo from "../../assets/TOI.png";
-import HindustanLogo from "../../assets/times.png";
+import DailyhuntLogo from "../../assets/publish1.svg";
+import TOILogo from "../../assets/publish2.svg";
+import HindustanLogo from "../../assets/publish3.svg";
 
 const StatsSection: React.FC = () => {
   return (
@@ -29,7 +29,7 @@ const StatsSection: React.FC = () => {
         </Subtitle>
         <StatsContainer>
           <StatBox>
-            <StatNumber>40+</StatNumber>
+            <StatNumber>60+</StatNumber>
             <StatLabel>Integrations</StatLabel>
           </StatBox>
           <StatBox>
