@@ -31,7 +31,6 @@ createRoot(document.getElementById('root')!).render(
     <BlogSection/>
     <Footer/>
     
-    
-    </StrictMode>,
+ </StrictMode>,
     
 )

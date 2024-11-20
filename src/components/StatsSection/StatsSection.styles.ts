@@ -63,6 +63,14 @@ export const StatsContainer = styled.div`
 
 export const StatBox = styled.div`
   text-align: center;
+
+
+  .number {
+    display: block;
+    font-size: 3rem;
+    color: #6e2cda; /* Matches your --dark-color */
+    font-weight: bold;
+  }
 `;
 
 export const StatNumber = styled.h2`

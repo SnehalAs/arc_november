@@ -1,4 +1,6 @@
 import React from "react";
+
+import NumberTicker from "@/components/ui/number-ticker";
 import {
   Section,
   Content,
@@ -6,7 +8,6 @@ import {
   Subtitle,
   StatsContainer,
   StatBox,
-  StatNumber,
   StatLabel,
   MediaContainer,
   MediaItem,
@@ -29,16 +30,22 @@ const StatsSection: React.FC = () => {
         </Subtitle>
         <StatsContainer>
           <StatBox>
-            <StatNumber>60+</StatNumber>
+            {/* <StatNumber>60+</StatNumber> */}
+            <span className='number'>
+                <NumberTicker value={60} className='number-ticker' />+
+              </span>
             <StatLabel>Integrations</StatLabel>
           </StatBox>
           <StatBox>
-            <StatNumber>600%</StatNumber>
+            {/* <StatNumber>600%</StatNumber> */}
+            <span className='number'>
+                <NumberTicker value={600} className='number-ticker' />%
+              </span>
             <StatLabel>Return on Investment</StatLabel>
           </StatBox>
           <StatBox>
-            <StatNumber>4k+</StatNumber>
-            <StatLabel>Global customers</StatLabel>
+          <span className='number'>4K+</span>
+          <span>Global Customers</span>
           </StatBox>
         </StatsContainer>
         <MediaContainer>
@@ -54,4 +61,4 @@ const StatsSection: React.FC = () => {
 };
 
 export default StatsSection;
-
+//

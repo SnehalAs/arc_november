@@ -1,12 +1,17 @@
 import './herosection.css';
 import { FaArrowRight  } from "react-icons/fa"; //FaStar
+import NumberTicker from "@/components/ui/number-ticker";
+
+import SparklesText from "@/components/ui/sparkles-text";
+
 
 const HeroSection = () => {
   return (
     <>
       <div className="text">
         <div className="left-content">
-          <h1 className="heading">SaaS Growth With Weekly Tips.</h1>
+          {/* <h1 className="heading">SaaS Growth With Weekly Tips.</h1> */}
+          <SparklesText text={<h1>SaaS Growth With Weekly Tips.</h1>} />
           <p className="para">
             Clarity gives you the blocks & components you need to create
             a truly professional website, landing page, or admin panel for your SaaS.
@@ -24,13 +29,28 @@ const HeroSection = () => {
 
           <div className="company-stats">
             <div className="company-info">
-              <div className="company-images">
+              {/* <div className="company-images">
                 <img src="src/assets/person1.png" alt="Person 1" className="circle-img" />
                 <img src="src/assets/person2.png" alt="Person 2" className="circle-img" />
                 <img src="src/assets/person3.png" alt="Person 3" className="circle-img" />
+              </div> */}
+              {/* <strong>5,910+</strong>
+              <p>Companies are using & it's growing every day</p> */}
+              <div className='stats'>
+            <div className='stat-item'>
+              <div className='avatars'>
+                <img src='src\assets\person1.svg' alt='User 1' />
+                <img src='src\assets\person2.svg' alt='User 2' />
+                <img src='src\assets\person3.svg' alt='User 3' />
               </div>
-              <strong>5,910+</strong>
-              <p>Companies are using & it's growing every day</p>
+              <div className='stat-text'>
+                <span className='stat-number'>
+                  <NumberTicker value={910} />+
+                </span>
+                <span className="rtext1">Companies are using & it’s growing everyday</span>
+              </div>
+            </div>
+            </div>
             </div>
 
             <div className="divider"></div>

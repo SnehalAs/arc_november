@@ -1,130 +1,141 @@
-.blog-section {
-    width: 90%;
-    max-width: 1200px;
-    text-align: center;
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  }
-  .head{
-    margin-bottom: 40px;
-  }
-  .para{
-    margin-bottom: 40px;
-  }
-  .header h1 {
-    font-size: 2.5rem;
-  }
-  
-  .header p {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
-  
-  .view-all-btn {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #1a73e8;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 80px;
-  }
-  
-  .view-all-btn:hover {
-    background-color: #1558b0;
-  }
-  
-  .blog-cards-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    overflow-x: auto;
-    padding: 20px 0;
-    margin-left: 300px;
-  }
-  
-  .blog-card {
-    background: white;
-    color: black;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    flex-shrink: 0;
-    text-align: left;
-    margin-left: 30px;
-  }
-  
-  .blog-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  .blog-card .content {
-    padding: 15px;
-  }
-  
-  .blog-card .tag {
-    background: #e0e7ff;
-    color: #4f46e5;
-    padding: 5px 10px;
-    font-size: 0.8rem;
-    border-radius: 50px;
-  }
-  
-  .blog-card h2 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
-  
-  .blog-card p {
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-  }
-  
-  .blog-card .read-more {
-    color: #1a73e8;
-    font-size: 0.9rem;
-    text-decoration: none;
-  }
-  
-  .blog-card .read-more:hover {
-    text-decoration: underline;
-  }
-  
-  .carousel-controls {
-    margin: 20px 0;
-    display: flex;
-  justify-content: center; /* Aligns buttons horizontally */
-  gap: 10px; /* Adds spacing between buttons */
-  margin-top: 20px;
-  }
-  
-  .control-btn {
-    background: none;
-    border: 1px solid #fff;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 0 5px;
-    padding: 10px 20px;
-  background-color: #4facfe; /* Example color */
-  color: white;
+/* Section Styles */
+.case-study-section {
+  padding: 2rem;
+  background: linear-gradient(to bottom, #1607e9, #000000);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.case-study-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.case-study-header h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.case-study-header p {
+  font-size: 1.5rem;
+  color: #cccccc;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.connect-sales-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   font-size: 1rem;
-  }
-  
-  .control-btn:hover {
-    background: #fff;
-    color: #000;
-  }
-  
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.connect-sales-button:hover {
+  background-color: #0056b3;
+}
+
+/* Carousel Styles */
+.carousel {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  gap: 1rem;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Styles */
+.card {
+  width: 100%;
+  max-width: 650px;
+  height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Tag at the Top-Right */
+.tag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+/* Content at the Bottom */
+.card-content {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+.card-content .read-more {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-content .read-more:hover {
+  text-decoration: underline;
+}
+
+/* Carousel Buttons */
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.carousel-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: #0056b3;
+}
