@@ -7,13 +7,13 @@ const items = [
     tag: "FINANCE",
     title: "What is Ad Exposure and Why It Matters?",
     description: "Ad exposure impacts user engagement and brand growth. Learn why it matters.",
-    image: "src/assets/business1.svg", // Replace with your actual image path
+    image: "src/assets/blog1.svg", 
   },
   {
     tag: "BUSINESS",
     title: "Unlocking New Business Opportunities",
     description: "Discover strategies to tap into new markets and grow your business effectively.",
-    image: "src/assets/business1.svg", // Replace with your actual image path
+    image: "src/assets/blog2.svg", 
   },
 ];
 

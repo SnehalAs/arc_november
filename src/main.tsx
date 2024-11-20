@@ -9,9 +9,10 @@ import StatsSection from './components/StatsSection/StatsSection.tsx'
 import CaseStudy from './components/CaseStudy/CaseStudy.tsx'
 import BigEnough from './components/BigEnough/BigEnough.tsx'
 import Testimonial from './components/Testimonial/Testimonial.tsx'
-import CTA from './components/Testimonial/CTA.tsx'
+// import CTA from './components/Testimonial/CTA.tsx'
 import BlogSection from './components/BlogSection/BlogSection.tsx'
 import Footer from './components/Footer/Footer.tsx'
+import CTA from './components/CTA/CTA.tsx'
 
 
 
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')!).render(
     <CaseStudy/>
     <BigEnough/>
     <Testimonial/>
+    {/* <CTA/> */}
     <CTA/>
     <BlogSection/>
     <Footer/>

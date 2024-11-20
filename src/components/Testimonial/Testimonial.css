@@ -71,7 +71,7 @@ body {
   overflow: hidden;
   position: relative;
   /* width: 100%; */
-  /* max-width: 900px; */
+  max-width: 1200px;
   margin: 0 auto;
   background: white;
   border-radius: 8px;
@@ -91,7 +91,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 1.5rem; /* Spacing between logo and text */
+  /* margin-right: 1.5rem; Spacing between logo and text */
 }
 
 .left img {

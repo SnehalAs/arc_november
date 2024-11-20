@@ -1,16 +1,14 @@
 import './herosection.css';
-import { FaArrowRight  } from "react-icons/fa"; //FaStar
+import { FaArrowRight  } from "react-icons/fa"; 
 import NumberTicker from "@/components/ui/number-ticker";
-
 import SparklesText from "@/components/ui/sparkles-text";
-
 
 const HeroSection = () => {
   return (
     <>
       <div className="text">
         <div className="left-content">
-          {/* <h1 className="heading">SaaS Growth With Weekly Tips.</h1> */}
+         
           <SparklesText text={<h1>SaaS Growth With Weekly Tips.</h1>} />
           <p className="para">
             Clarity gives you the blocks & components you need to create
@@ -29,13 +27,7 @@ const HeroSection = () => {
 
           <div className="company-stats">
             <div className="company-info">
-              {/* <div className="company-images">
-                <img src="src/assets/person1.png" alt="Person 1" className="circle-img" />
-                <img src="src/assets/person2.png" alt="Person 2" className="circle-img" />
-                <img src="src/assets/person3.png" alt="Person 3" className="circle-img" />
-              </div> */}
-              {/* <strong>5,910+</strong>
-              <p>Companies are using & it's growing every day</p> */}
+              
               <div className='stats'>
             <div className='stat-item'>
               <div className='avatars'>
@@ -60,18 +52,7 @@ const HeroSection = () => {
                 <span className="Myrtext" >Trusted by the top companies worldwide</span>
               </div>
               </div>
-
-{/* 
-            <div className="rating-info">
-              <strong>4.5/5</strong>
-              <div className="stars">
-                {[...Array(5)].map((_, index) => (
-                  <FaStar key={index} color={index < 4.5 ? "#1d4ed8" : "#ccc"} />
-                ))}
               </div>
-              <p>Trusted by the top companies worldwide</p>
-            </div> */}
-          </div>
         </div>
 
         <div>
@@ -94,4 +75,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-

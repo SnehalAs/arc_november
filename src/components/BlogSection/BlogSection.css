@@ -1,4 +1,3 @@
-/* Section Styles */
 .case-study-section {
   padding: 2rem;
   background: linear-gradient(to bottom, #1607e9, #000000);
@@ -40,7 +39,7 @@
   background-color: #0056b3;
 }
 
-/* Carousel Styles */
+
 .carousel {
   max-width: 900px;
   margin: 0 auto;
@@ -62,7 +61,6 @@
   align-items: center;
 }
 
-/* Card Styles */
 .card {
   width: 100%;
   max-width: 650px;
@@ -76,7 +74,7 @@
   justify-content: flex-end;
 }
 
-/* Tag at the Top-Right */
+
 .tag {
   position: absolute;
   top: 1rem;
@@ -90,7 +88,7 @@
   z-index: 1;
 }
 
-/* Content at the Bottom */
+
 .card-content {
   background-color: #000000;
   color: #ffffff;
@@ -119,7 +117,7 @@
   text-decoration: underline;
 }
 
-/* Carousel Buttons */
+
 .carousel-controls {
   display: flex;
   justify-content: center;
